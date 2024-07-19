@@ -5,7 +5,7 @@ const apiRouter = require('./routes/api');
 const { initializeTables } = require('./models/models');
 
 const app = express();
-const port = 3000;
+const port = 8000;
 
 app.use(cors());
 app.use(bodyParser.json());

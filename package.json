@@ -1,5 +1,5 @@
 {
-  "name": "itrate-backend",
+  "name": "srimandir-backend",
   "version": "1.0.0",
   "description": "Backend for Srimandir website clone",
   "main": "src/server.js",
@@ -7,13 +7,10 @@
     "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "harikrishna",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
     "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "sqlite3": "^5.1.7"
+    "body-parser": "^1.19.0"
   }
 }
